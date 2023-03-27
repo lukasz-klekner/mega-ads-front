@@ -1,4 +1,5 @@
 import './App.css'
+import { Button } from './components/Button/Button';
 
 export const App = () => {
 
@@ -8,10 +9,10 @@ export const App = () => {
         <h1>
           <span>Mega</span> Ogłoszenia
         </h1>
-        <button>Dodaj ogłoszenie</button>
+        <Button content='Dodaj ogłoszenie' />
         <div className="search">
           <input type="text" />
-          <button>Szukaj</button>
+          <Button content='Szukaj' />
         </div>
       </header>
 
