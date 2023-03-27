@@ -1,0 +1,41 @@
+header {
+    background-color: #6200EE;
+    padding: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+header h1 span {
+    font-weight: 700;
+}
+
+button {
+    background-color: #2A913E;
+    color: white;
+    padding: 2px 36px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 2px;
+}
+
+.search {
+    display: flex;
+}
+
+.search input {
+    width: 13em;
+    margin-right: 6px;
+}
+
+.map {
+    background-color: red;
+    height: calc(100vh - 47px);
+}
