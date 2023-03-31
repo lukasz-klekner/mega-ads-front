@@ -17,7 +17,7 @@ export const Header = () => {
       <h1>
         <span>Mega</span> Ogłoszenia
       </h1>
-      <Button content='Dodaj ogłoszenie' />
+      <Button content='Dodaj ogłoszenie' to={'add-ad'} />
       <form onSubmit={handleSubmit} className="search">
         <input type="text" value={search?.search} onChange={(event) => search?.setSearch(event.target.value)}/>
         <Button content='Szukaj' />
