@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Header } from './components/Header/Header';
 import { Map } from './components/Map/Map';
-import { SearchContext } from './context/SearchContext';
+import { SearchContext } from './context/searchContext';
 
 export const App = () => {
   const [search, setSearch] = useState('')

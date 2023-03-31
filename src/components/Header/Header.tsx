@@ -1,7 +1,7 @@
 import "./Header.css"
 
 import { Button } from "../Button/Button";
-import { useSearchContext } from "src/context/SearchContext";
+import { useSearchContext } from "../../context/searchContext";
 import { SyntheticEvent } from "react";
 
 export const Header = () => {
