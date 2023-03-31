@@ -14,7 +14,7 @@ export const Map = () => {
 
     useEffect(() => {
         (async () => {
-            const response = await fetch('http://localhost:3001/ad/search')
+            const response = await fetch(`http://localhost:3001/ad/search/${searchContext?.search}`)
             const data = await response.json()
 
             setAds(data)
