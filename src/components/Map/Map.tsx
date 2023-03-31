@@ -7,6 +7,7 @@ import "leaflet/dist/leaflet.css"
 import "./Map.css"
 import { useEffect, useState } from "react"
 import { useSearchContext } from "../../context/searchContext"
+import { SimpleAd } from "./SingleAd"
 
 export const Map = () => {
     const [ads, setAds] = useState<SimpleAdItem[]>([])
@@ -32,7 +33,7 @@ export const Map = () => {
                     ads.map(({ _id, lat, lng}) => (
                         <Marker key={_id.toString()} position={[lat, lng]}>
                             <Popup>
-                                <p>{_id.toString()}</p>
+                                <SimpleAd _id={_id.toString()} />
                             </Popup>
                         </Marker>
                     ))
