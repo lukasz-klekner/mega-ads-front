@@ -9,6 +9,6 @@ interface ButtonProps {
 
 export const Button = ({ content, to }: ButtonProps) => (
     <>
-    {to ? <Link className="btn" to={to}>{to}</Link> : <button type="button">{content}</button>}
+    {to ? <Link className="btn" to={to}>{to}</Link> : <button>{content}</button>}
     </>
 )

@@ -1,0 +1,17 @@
+.ad-form {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.ad-form label {
+    display: block;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.ad-form input, .ad-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
