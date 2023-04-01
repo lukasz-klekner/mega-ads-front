@@ -10,7 +10,7 @@ export const SimpleAd = ({ _id }: SimpleAdProps) =>{
 
     useEffect(() => {
         (async () => {
-            const response = await fetch(`http://localhost:3001/ad/${_id}`)
+            const response = await fetch(`http://localhost:3001/api/ad/${_id}`)
             const data = await response.json()
 
             setAd(data)

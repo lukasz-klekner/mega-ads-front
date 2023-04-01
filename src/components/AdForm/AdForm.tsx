@@ -27,7 +27,7 @@ export const AdForm = () => {
         try {
             const { lat, lng } = await getCoords(formState.address)  
 
-            const response = await fetch(`http://localhost:3001/ad`, {
+            const response = await fetch(`http://localhost:3001/api/ad`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
